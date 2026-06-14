@@ -256,7 +256,7 @@
             const resetBtn = document.getElementById('resetBtn');
             const demoNotice = document.getElementById('demoNotice');
             // Determine if webhook is configured, show simulation warning if not
-            const isSimulator = !WEBHOOK_URL || WEBHOOK_URL.trim() === '' || WEBHOOK_URL.includes('YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL');
+            const isSimulator = !WEBHOOK_URL || WEBHOOK_URL.trim() === '' || WEBHOOK_URL.includes('https://script.google.com/macros/s/AKfycbxsGy0IpDosBN3sTdmJUBTRQ5kRUE2iwMZIERpFmrhvAQd6sOTWxF434T-6IxbS2gXWng/exec');
             if (isSimulator) {
                 demoNotice.classList.remove('hidden');
                 console.info('INVESTMENT CLUB Form: Webhook URL is not configured. Submissions will trigger a 1.5s simulation.');
