@@ -41,8 +41,8 @@ function doPost(e) {
       // Apply clean formatting to header row
       var headerRange = sheet.getRange(1, 1, 1, 5);
       headerRange.setFontWeight('bold');
-      headerRange.setBackground('#002147'); // Aura Navy
-      headerRange.setFontColor('#FFFFFF');   // White Text
+      headerRange.setBackground('#063710'); 
+      headerRange.setFontColor('#FFFFFF');   
       headerRange.setHorizontalAlignment('center');
       sheet.setFrozenRows(1);
     }
