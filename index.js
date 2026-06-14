@@ -41,7 +41,7 @@ function doPost(e) {
       // Apply clean formatting to header row
       var headerRange = sheet.getRange(1, 1, 1, 5);
       headerRange.setFontWeight('bold');
-      headerRange.setBackground('#052a0d'); 
+      headerRange.setBackground('#04200a'); 
       headerRange.setFontColor('#FFFFFF');   
       headerRange.setHorizontalAlignment('center');
       sheet.setFrozenRows(1);
