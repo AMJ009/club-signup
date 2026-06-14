@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AURA WEALTH | Access Application</title>
+    <title>INVESTMENT CLUB | Access Application</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts: Outfit -->
@@ -90,7 +90,7 @@
             </svg>
             <!-- Header Title -->
             <div class="relative z-10">
-                <h2 class="text-xl font-bold tracking-widest text-white">AURA WEALTH</h2>
+                <h2 class="text-xl font-bold tracking-widest text-white">INVESTMENT CLUB</h2>
                 <p class="text-[10px] text-gold font-semibold uppercase tracking-widest mt-1">Investment Cohort</p>
             </div>
             
@@ -259,7 +259,7 @@
             const isSimulator = !WEBHOOK_URL || WEBHOOK_URL.trim() === '' || WEBHOOK_URL.includes('YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL');
             if (isSimulator) {
                 demoNotice.classList.remove('hidden');
-                console.info('Aura Wealth Form: Webhook URL is not configured. Submissions will trigger a 1.5s simulation.');
+                console.info('INVESTMENT CLUB Form: Webhook URL is not configured. Submissions will trigger a 1.5s simulation.');
             }
             // Real-time digit filtering for Phone Number field
             numberInput.addEventListener('input', (e) => {
